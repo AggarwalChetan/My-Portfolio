@@ -7,6 +7,7 @@
     padding-right: 20px;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
 }
 
 .header{
@@ -25,12 +26,12 @@
 }
 
 .center{
-    padding: 250px;
+    padding: 50px;
     text-align: center;
 }
 
 .top{
-    padding:100px;
+    padding:40px;
 }
 .box {
     margin:auto;
@@ -47,4 +48,10 @@
 
 .font{
     font-size: 20px;
+}
+
+.line{
+    background-color: brown; 
+    height: 2px; margin-top: 20px; 
+    margin-bottom: 20px;
 }
