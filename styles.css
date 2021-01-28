@@ -1,3 +1,50 @@
-para{
-    color:red;
+.background{
+    background-color: lightblue;
+}
+
+.top-right{
+    float:right;
+    padding-right: 20px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-image: url('background2.jpg');
+
+    height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color :rgb(0, 0, 0);
+    font-style: solid;
+    font-size: 20px;
+}
+
+.center{
+    padding: 250px;
+    text-align: center;
+}
+
+.top{
+    padding:100px;
+}
+.box {
+    margin:auto;
+    height:300px;
+    width: 300px;
+    padding: 50px;
+    border: 2px solid rgb(226, 27, 20);
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.font{
+    font-size: 20px;
 }
