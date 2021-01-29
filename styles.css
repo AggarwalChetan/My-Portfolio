@@ -1,5 +1,5 @@
 .background{
-    background-color: lightblue;
+    background-color:rgb(117, 177, 177);
 }
 
 .top-right{
@@ -26,19 +26,19 @@
 }
 
 .center{
-    padding: 50px;
-    text-align: center;
+    padding: 40px;
+    /* text-align: center; */
 }
 
 .top{
     padding:40px;
 }
+
 .box {
-    margin:auto;
-    height:300px;
-    width: 300px;
-    padding: 50px;
-    border: 2px solid rgb(226, 27, 20);
+    height:100%;
+    width: 100%;
+    background-color: blue;
+    padding: 30%;
 }
 
 .column {
@@ -54,4 +54,11 @@
     background-color: brown; 
     height: 2px; margin-top: 20px; 
     margin-bottom: 20px;
+}
+
+.btn{
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    border-width: 1px;
 }
