@@ -1,5 +1,29 @@
-.background{
-    background-color:rgb(117, 177, 177);
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 0%;
+    left: 0;
+    /* background-color: darkcyan; */
+    background-color:rgb(4, 121, 121);
+  }
+
+.sidenav a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    display: block;
+}
+
+.background-color{
+    background-color: darkcyan;
+    padding: 40px;
+}
+
+.main {
+    margin-left: 190px; /* Same as the width of the sidenav */
+    padding: 10px;
 }
 
 .top-right{
@@ -25,11 +49,6 @@
     font-size: 20px;
 }
 
-.center{
-    padding: 40px;
-    /* text-align: center; */
-}
-
 .top{
     padding:40px;
 }
@@ -50,15 +69,22 @@
     font-size: 20px;
 }
 
-.line{
-    background-color: brown; 
-    height: 2px; margin-top: 20px; 
-    margin-bottom: 20px;
-}
-
 .btn{
     cursor: pointer;
     font-size: 20px;
     border-radius: 5px;
     border-width: 1px;
 }
+
+.tab1{
+    display: inline-block; 
+    margin-left: 75px; 
+}
+
+.tab2{
+    display: inline-block; 
+    margin-left: 55px; 
+}
+
+
+
